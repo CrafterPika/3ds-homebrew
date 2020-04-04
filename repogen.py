@@ -42,7 +42,7 @@ for package in os.listdir("packages"):
         # omitted files
         existing = {}
         try:
-            manifest_file = open("manifest.install", "r")
+            manifest_file = open("manifest.install", "r", newline='\n')
             for line in manifest_file:
                 mode, name = line.split(": ")
                 if mode == "U":
@@ -63,7 +63,7 @@ for package in os.listdir("packages"):
                     manifest += existing[relPath]
                 else:
                     manifest += "U: %s\n" % relPath
-        manifest_file = open("manifest.install", "w")
+        manifest_file = open("manifest.install", "w", newline='\n')
         manifest_file.write(manifest)
         manifest_file.close()
 
