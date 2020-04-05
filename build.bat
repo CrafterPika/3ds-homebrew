@@ -1,2 +1,2 @@
-C:/Python27/python.exe "repogen.py"
+python "repogen.py"
 pause
