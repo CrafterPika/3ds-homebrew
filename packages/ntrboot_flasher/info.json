@@ -1,0 +1,11 @@
+{
+    "author": "ntrteam",
+    "category": "advanced",
+    "description": "Flash NTRBoot",
+    "details": "🔓 Flash ntrboot to supported flashcarts using your 3DS. https://3ds.hacks.guide/ntrboot.html",
+    "license": "n/a",
+    "title": "NTRBoot Flasher",
+    "url": "https://github.com/ntrteam/ntrboot_flasher/",
+    "version": "0.5.0",
+    "name": "ntrboot_flasher"
+}

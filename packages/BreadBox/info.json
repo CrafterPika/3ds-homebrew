@@ -1,0 +1,11 @@
+{
+    "author": "Spinal",
+    "category": "emu",
+    "description": "C64 Emu",
+    "details": "A Commodore 64 emulator for the Nintendo 3DS. Games come in the folder '/c64/games'. New 3DS users Should use Vice3DS",
+    "license": "n/a",
+    "title": "BreadBox",
+    "url": "https://github.com/spinalcode/BreadBox",
+    "version": "1.0",
+    "name": "BreadBox"
+}

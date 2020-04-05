@@ -1,0 +1,11 @@
+{
+    "author": "Kyraminol",
+    "category": "tool",
+    "description": "Demo Count reseter",
+    "details": "If this application is requested, the correct starts of all installed demos will be withdrawn, you will be able to start demos again, even if the first starts are at 0!",
+    "license": "n/a",
+    "title": "3DeMore",
+    "url": "https://github.com/Kyraminol/3DeMore",
+    "version": "1.0.0",
+    "name": "3DeMore"
+}

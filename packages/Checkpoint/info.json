@@ -1,0 +1,11 @@
+{
+    "author": "FlagBrew",
+    "category": "tool",
+    "description": "Save Manager",
+    "details": "Fast and simple homebrew save manager for 3DS and Switch. ",
+    "license": "n/a",
+    "title": "Checkpoint",
+    "url": "https://github.com/FlagBrew/Checkpoint",
+    "version": "3.7.4",
+    "name": "Checkpoint"
+}

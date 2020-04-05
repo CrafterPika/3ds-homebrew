@@ -1,0 +1,11 @@
+{
+    "author": "bubble2k16",
+    "category": "emu",
+    "description": "Sega Emu",
+    "details": "**Emulator for many sega systems",
+    "license": "n/a",
+    "title": "picodrive_3ds",
+    "url": "https://github.com/bubble2k16/picodrive_3ds",
+    "version": "0.94",
+    "name": "picodrive_3ds"
+}

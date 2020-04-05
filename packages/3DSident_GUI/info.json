@@ -1,0 +1,11 @@
+{
+    "author": "joel16",
+    "category": "tool",
+    "description": "PSPident clone for 3DS ",
+    "details": "ctr_vercheck was originally created by wolfvak - It was initially intended to be a small application for the Nintendo 3DS to check your current FIRM and OS version only. I decided to fork this project, and added additional device info similar to PSPident, hence the name 3DSident.",
+    "license": "n/a",
+    "title": "3DSident-GUI",
+    "url": "https://github.com/joel16/3DSident",
+    "version": "0.8.0",
+    "name": "3DSident_GUI"
+}

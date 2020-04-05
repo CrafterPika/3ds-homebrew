@@ -1,0 +1,11 @@
+{
+    "author": "asiekierka",
+    "category": "emu",
+    "description": "Atari Emu",
+    "details": "port from the atari800 emulator to the 3ds",
+    "license": "n/a",
+    "title": "atari800-3ds",
+    "url": "https://git.asie.pl/asie-homebrew/atari800-3ds",
+    "version": "0.2.4",
+    "name": "atari800_3ds"
+}

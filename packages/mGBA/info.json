@@ -1,0 +1,11 @@
+{
+    "author": "endrift",
+    "category": "emu",
+    "description": "GBA Emu",
+    "details": "A port from the GBA emulator to the 3ds",
+    "license": "n/a",
+    "title": "mGBA",
+    "url": "https://mgba.io",
+    "version": "0.8.1",
+    "name": "mGBA"
+}

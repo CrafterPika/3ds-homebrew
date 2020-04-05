@@ -1,0 +1,11 @@
+{
+    "author": "shutterbug2000",
+    "category": "advanced",
+    "description": "Allows you to dump a process",
+    "details": "Allows you to corrupt RAM of your games.   \n\nUSE:\nCopy the 'cheat.plg' in 'sd://plugin/[title id from your game]/' and press the 'D-PAD' to start the plugin",
+    "license": "n/a",
+    "title": "NTR-CFW - 3DS Corrupter Plugin",
+    "url": "https://gbatemp.net/threads/beta-ntr-3ds-corruptions-plugin.442285/",
+    "version": "beta",
+    "name": "3DS_Corrupter"
+}

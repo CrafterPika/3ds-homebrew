@@ -1,0 +1,11 @@
+{
+    "author": " bubble2k16 ",
+    "category": "emu",
+    "description": "Snes Emu",
+    "details": "SNES9x Port for 3DS / 2DS ",
+    "license": "n/a",
+    "title": "Snes9x 3DS",
+    "url": "https://github.com/bubble2k16/snes9x_3ds",
+    "version": "1.30",
+    "name": "snes9x_3ds"
+}

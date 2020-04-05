@@ -1,0 +1,11 @@
+{
+    "author": " javimadgit",
+    "category": "concept",
+    "description": "3DS TinyFormat ",
+    "details": "TinyFormat is a small utility to format Sys/EmuNAND using FS:InitializeCtrFileSystem but without formating your SD card.",
+    "license": "n/a",
+    "title": "TinyFormat",
+    "url": "https://github.com/javimadgit/TinyFormat",
+    "version": "1.0.0",
+    "name": "TinyFormat"
+}

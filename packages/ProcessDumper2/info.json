@@ -1,0 +1,11 @@
+{
+    "author": "Nanquitas",
+    "category": "advanced",
+    "description": "Allows you to dump a process",
+    "details": "Allows you to dump a process / Game and produce a *******'s dump header alike. With this it's easier to find cheats / pointer with NTR.  \n\nUSE:\nCopy the 'plugin' folder onto your SD card \n\nHow to Use:\n- A to select a specific region to dump\n- B to dump all memory regions",
+    "license": "n/a",
+    "title": "NTR-CFW - ProcessDumper2 Plugin",
+    "url": "https://gbatemp.net/threads/question-3ds-cfw-ntr-how-to-build-a-game-plg-file-with-pointer-code.434481/#post-6535705",
+    "version": "2.0",
+    "name": "ProcessDumper2"
+}
