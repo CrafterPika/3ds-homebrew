@@ -15,7 +15,7 @@
 	"assets": [
 		{
 			"url": "https://github.com/RocketRobz/3DSBank/releases/download/v1.0/3DSBank.cia",
-			"type": "cia",
+			"type": "none",
 			"zip": [
 				{
 					"path": "/cias/3DSBank.cia",

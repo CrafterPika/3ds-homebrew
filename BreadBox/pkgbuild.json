@@ -15,7 +15,7 @@
 	"assets": [
 		{
 			"url": "BreadBox.cia",
-			"type": "cia",
+			"type": "none",
 			"zip": [
 				{
 					"path": "/cias/BreadBox.cia",
