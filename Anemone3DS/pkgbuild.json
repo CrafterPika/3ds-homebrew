@@ -11,11 +11,11 @@
 		"details": "A theme and boot splash manager for the Nintendo 3DS console",
 		"binary": "/cias/Anemone3DS.cia"
 	},
-	"changelog": "000",
+	"changelog": "2.1.0b",
 	"assets": [
 		{
 			"url": "https://github.com/astronautlevel2/Anemone3DS/releases/download/v2.1.0-b/Anemone3DS.cia",
-			"type": "none",
+			"type": "cia",
 			"zip": [
 				{
 					"path": "/cias/Anemone3DS.cia",
