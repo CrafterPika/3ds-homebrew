@@ -1,0 +1,36 @@
+{
+	"package": "Checkpoint",
+	"info": {
+		"title": "Checkpoint",
+		"author": "author",
+		"category": "tool",
+		"version": "v3.7.4",
+		"url": "https://github.com/FlagBrew/Checkpoint",
+		"license": "none",
+		"description": "Save Manager",
+		"details": "Fast and simple homebrew save manager for 3DS and Switch.",
+		"binary": "/cias/Checkpoint.cia"
+	},
+	"changelog": "v3.7.4",
+	"assets": [
+		{
+			"url": "https://github.com/FlagBrew/Checkpoint/releases/download/v3.7.4/Checkpoint.cia",
+			"type": "cia",
+			"zip": [
+				{
+					"path": "/cias/example.cia",
+					"dest": "/",
+					"type": "update"
+				}
+			]
+		},
+		{
+			"url": "icon.png",
+			"type": "icon"
+		},
+		{
+			"url": "screen.png",
+			"type": "screenshot"
+		}
+	]
+}

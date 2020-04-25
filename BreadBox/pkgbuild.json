@@ -3,8 +3,8 @@
 	"info": {
 		"title": "BreadBox",
 		"author": "spinalcode",
-		"category": "1.0",
-		"version": "none",
+		"category": "emu",
+		"version": "1.0",
 		"url": "https://github.com/spinalcode/BreadBox",
 		"license": "none",
 		"description": "C64 Emulator",
