@@ -15,8 +15,9 @@ jobs:
     - name: Build repo in spinarak docker container
       run: |
         docker run \
-        -v ${{ github.workspace }}:/packages registry.gitlab.com/4tu/spinarak \
+        -v ${{ github.workspace }}:/packages registry.gitlab.com/CrafterPika/spinarak \
         /bin/bash -c "cd /packages && python3 /home/app/spinarak.py"
+        
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
       with:
