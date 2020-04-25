@@ -25,3 +25,15 @@ jobs:
     - name: Lint with flake8
       run: |
         python2 ./repogen_build_main.py
+    
+    - name: Upload Zips
+      uses: actions/upload-artifact@v1.0.0
+      with:
+        name: output_zips
+        path: zips
+
+    - name: Upload repo.json
+      uses: actions/upload-artifact@v1.0.0
+      with:
+        name: output_repo
+        path: repo.json
