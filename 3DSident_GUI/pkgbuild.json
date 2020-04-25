@@ -19,7 +19,7 @@
 			"zip": [
 				{
 					"path": "/cias/3DSident-GUI.cia",
-					"dest": "/",
+					"dest": "/cias/3DSident-GUI.cia",
 					"type": "update"
 				}
 			]

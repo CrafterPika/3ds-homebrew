@@ -19,7 +19,7 @@
 			"zip": [
 				{
 					"path": "/cias/3DShell.cia",
-					"dest": "/",
+					"dest": "/cias/3DShell.cia",
 					"type": "update"
 				}
 			]

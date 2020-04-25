@@ -19,7 +19,7 @@
 			"zip": [
 				{
 					"path": "/cheat.plg",
-					"dest": "/",
+					"dest": "/cheat.plg",
 					"type": "update"
 				}
 			]

@@ -18,8 +18,8 @@
 			"type": "cia",
 			"zip": [
 				{
-					"path": "/cias/example.cia",
-					"dest": "/",
+					"path": "/cias/Checkpoint.cia",
+					"dest": "/cias/Checkpoint.cia",
 					"type": "update"
 				}
 			]

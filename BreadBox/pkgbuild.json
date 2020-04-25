@@ -18,8 +18,8 @@
 			"type": "cia",
 			"zip": [
 				{
-					"path": "/cias/example.cia",
-					"dest": "/",
+					"path": "/cias/BreadBox.cia",
+					"dest": "/cias/BreadBox.cia",
 					"type": "update"
 				}
 			]
