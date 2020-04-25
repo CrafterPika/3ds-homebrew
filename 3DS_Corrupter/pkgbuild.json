@@ -1,5 +1,5 @@
 {
-	"package": "NTR-CFW - 3DS Corrupter Plugin",
+	"package": "3DS_Corrupter",
 	"info": {
 		"title": "NTR-CFW - 3DS Corrupter Plugin",
 		"author": "Shutterbug2000",
@@ -15,7 +15,7 @@
 	"assets": [
 		{
 			"url": "cheat.plg",
-			"type": "none",
+			"type": "plg",
 			"zip": [
 				{
 					"path": "/cheat.plg",
