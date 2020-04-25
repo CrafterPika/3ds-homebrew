@@ -1,0 +1,36 @@
+{
+	"package": "BootNTRSelector",
+	"info": {
+		"title": "BootNTRSelector",
+		"author": "Nanquitas, Cell9, PabloMK7",
+		"category": "none",
+		"version": "2.13.3",
+		"url": "https://github.com/Nanquitas/BootNTR/releases/",
+		"license": "none",
+		"description": "Multy functional CFW",
+		"details": "Multy Functinal CFW, generally made for Plugins (cheats, tools, mods, etc)",
+		"binary": "/cias/BootNTRSelector-PabloMK7-Banner.cia"
+	},
+	"changelog": "2.13.3",
+	"assets": [
+		{
+			"url": "https://github.com/Nanquitas/BootNTR/releases/download/v2.13.3/BootNTRSelector-PabloMK7-Banner.cia",
+			"type": "cia",
+			"zip": [
+				{
+					"path": "/cias/BootNTRSelector-PabloMK7-Banner.cia",
+					"dest": "/",
+					"type": "update"
+				}
+			]
+		},
+		{
+			"url": "icon.png",
+			"type": "icon"
+		},
+		{
+			"url": "screen.png",
+			"type": "screenshot"
+		}
+	]
+}
