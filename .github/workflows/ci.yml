@@ -22,12 +22,6 @@ jobs:
       with:
         name: output
         path: public
-        
-    - name: Make index.html
-      run:
-        cat > public/index.html <<EOL
-        <meta http-equiv="Refresh" content="0; url=https://apps.fortheusers.org/3ds" />
-        EOL
 
     - name: Deploy Repo
       uses: crazy-max/ghaction-github-pages@v1.4.0
