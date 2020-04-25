@@ -24,4 +24,4 @@ jobs:
         
     - name: Lint with flake8
       run: |
-        repogen_build_main.py
+        python2 ./repogen_build_main.py
