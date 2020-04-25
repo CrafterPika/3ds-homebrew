@@ -23,9 +23,10 @@ jobs:
         name: output
         path: public
 
-    - name: Deploy via GitHub Pages
+    - name: Deploy Repo
       uses: crazy-max/ghaction-github-pages@v1.4.0
       with:
         build_dir: public
+        fqdn: 3ds.apps.fortheusers.org
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
