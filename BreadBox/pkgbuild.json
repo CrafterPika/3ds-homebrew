@@ -1,0 +1,32 @@
+{
+	"package": "BreadBox",
+	"info": {
+		"title": "BreadBox",
+		"author": "spinalcode",
+		"category": "1.0",
+		"version": "none",
+		"url": "https://github.com/spinalcode/BreadBox",
+		"license": "none",
+		"description": "C64 Emulator",
+		"details": "A Commodore 64 emulator for the Nintendo 3DS. Games come in the folder '/c64/games'. New 3DS users Should use Vice3DS",
+		"binary": "/cias/BreadBox.cia"
+	},
+	"changelog": "none",
+	"assets": [
+		{
+			"url": "BreadBox.cia",
+			"type": "cia",
+			"zip": [
+				{
+					"path": "/cias/example.cia",
+					"dest": "/",
+					"type": "update"
+				}
+			]
+		},
+		{
+			"url": "icon.png",
+			"type": "icon"
+		}
+	]
+}
