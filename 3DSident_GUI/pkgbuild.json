@@ -1,0 +1,32 @@
+{
+	"package": "3DSident_GUI",
+	"info": {
+		"title": "3DSident",
+		"author": "joel16",
+		"category": "tool",
+		"version": "0.8.0",
+		"url": "https://github.com/joel16/3DSident/",
+		"license": "GPLv3",
+		"description": "PSPIdent clone",
+		"details": "Shows many information about your console",
+		"binary": "/cias/3DSident-GUI.cia"
+	},
+	"changelog": "1.6.7",
+	"assets": [
+		{
+			"url": "https://github.com/joel16/3DSident/releases/download/0.8.0/3DSident-GUI.cia",
+			"type": "cia",
+			"zip": [
+				{
+					"path": "/cias/3DSident-GUI.cia",
+					"dest": "/",
+					"type": "update"
+				}
+			]
+		},
+		{
+			"url": "screen.png",
+			"type": "screenshot"
+		}
+	]
+}

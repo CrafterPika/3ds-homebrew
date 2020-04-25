@@ -1,0 +1,36 @@
+{
+	"package": "Anemone3DS",
+	"info": {
+		"title": "Anemone3DS",
+		"author": "astronautlevel2",
+		"category": "none",
+		"version": "2.1.0b",
+		"url": "https://github.com/astronautlevel2/Anemone3DS",
+		"license": "none",
+		"description": "Theme/Splash Manager",
+		"details": "A theme and boot splash manager for the Nintendo 3DS console",
+		"binary": "/cias/Anemone3DS.cia"
+	},
+	"changelog": "000",
+	"assets": [
+		{
+			"url": "https://github.com/astronautlevel2/Anemone3DS/releases/download/v2.1.0-b/Anemone3DS.cia",
+			"type": "cia",
+			"zip": [
+				{
+					"path": "/cias/example.cia",
+					"dest": "/",
+					"type": "update"
+				}
+			]
+		},
+		{
+			"url": "icon.png",
+			"type": "icon"
+		},
+		{
+			"url": "screen.png",
+			"type": "screenshot"
+		}
+	]
+}

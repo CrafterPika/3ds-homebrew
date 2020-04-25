@@ -1,0 +1,40 @@
+{
+	"package": "3dstris",
+	"info": {
+		"title": "3dstris",
+		"author": "3Dtris-Team",
+		"category": "game",
+		"version": "1.6.7",
+		"url": "https://github.com/3DStris/3DStris/releases",
+		"license": "GPLv3",
+		"description": "Tetris Clone",
+		"details": "Tetris Clone for the 3ds",
+		"binary": "/cias/3dstris-1.6.7-59179f6.cia"
+	},
+	"changelog": "1.6.7",
+	"assets": [
+		{
+			"url": "https://github.com/3DStris/3DStris/releases/download/v1.6.7/3dstris-1.6.7-59179f6.cia",
+			"type": "cia",
+			"zip": [
+				{
+					"path": "/cias/3dstris-1.6.7-59179f6.cia",
+					"dest": "/",
+					"type": "update"
+				}
+			]
+		},
+		{
+			"url": "icon.png",
+			"type": "icon"
+		},
+		{
+			"url": "screen1.png",
+			"type": "screenshot"
+		},
+		{
+			"url": "screen2.png",
+			"type": "screenshot"
+		}
+	]
+}

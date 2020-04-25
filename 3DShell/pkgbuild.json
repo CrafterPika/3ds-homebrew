@@ -1,0 +1,32 @@
+{
+	"package": "3DShell",
+	"info": {
+		"title": "3DShell",
+		"author": "joel16",
+		"category": "tool",
+		"version": "4.3.1",
+		"url": "https://github.com/joel16/3DShell/releases",
+		"license": "GPLv3",
+		"description": "3DShell - (Pronounced 3D Shell) is a multi purpose file manager for the Nintendo 3DS. Heavily inspired by the CyanogenMod/LineageOS file manager.",
+		"details": "3DShell (pronounced 3D-Shell) - is a multi-purpose file manager for the Nintendo 3DS that aims towards handling media files. Unlike FBI which specializes more in title management, 3DShell leans towards more of the file management features such as opening and managing various files types and includes the basic necessity of a standard file manager. This program's design elements are clearly inspired by CyanogenMod/LineageOS's built in file manager, and so all credits towards the design go to the CyanogenMod/LineageOS contributors.",
+		"binary": "/cias/3DSident-GUI.cia"
+	},
+	"changelog": "4.3.1",
+	"assets": [
+		{
+			"url": "https://github.com/joel16/3DShell/releases/download/v4.3.1/3DShell.cia",
+			"type": "cia",
+			"zip": [
+				{
+					"path": "/cias/3DShell.cia",
+					"dest": "/",
+					"type": "update"
+				}
+			]
+		},
+		{
+			"url": "screen.png",
+			"type": "screenshot"
+		}
+	]
+}

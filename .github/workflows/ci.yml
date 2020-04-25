@@ -1,4 +1,4 @@
-name: CI Build
+name: buildroot
 
 on:
   push:
@@ -8,32 +8,24 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python 2.7
-      uses: actions/setup-python@v1
-      with:
-        python-version: 2.7
-
-    - name: Install dependencies
+    - name: Build repo in spinarak docker container
       run: |
-        python -m pip install --upgrade pip
-        
-    - name: build repo
-      run: |
-        python2 ./repogen.py
-    
-    - name: Upload Zips
+        docker run \
+        -v ${{ github.workspace }}:/packages registry.gitlab.com/4tu/spinarak \
+        /bin/bash -c "cd /packages && python3 /home/app/spinarak.py"
+    - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
       with:
-        name: output_zips
-        path: zips
+        name: output
+        path: public
 
-    - name: Upload repo.json
-      uses: actions/upload-artifact@v1.0.0
+    - name: Deploy via GitHub Pages
+      uses: crazy-max/ghaction-github-pages@v1.4.0
       with:
-        name: output_repo
-        path: repo.json
+        build_dir: public
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

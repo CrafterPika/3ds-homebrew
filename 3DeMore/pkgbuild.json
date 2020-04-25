@@ -1,0 +1,36 @@
+{
+	"package": "3DeMore",
+	"info": {
+		"title": "3DeMore",
+		"author": "Kyraminol",
+		"category": "none",
+		"version": "1.0.0",
+		"url": "https://github.com/Kyraminol/3DeMore",
+		"license": "none",
+		"description": "Reset 3DS demo use counter",
+		"details": "Reset all demo use counters and exit in few seconds. Simple, minimal, functional.",
+		"binary": "/cias/example.cia"
+	},
+	"changelog": "1.0.0",
+	"assets": [
+		{
+			"url": "https://github.com/Kyraminol/3DeMore/releases/download/1.0.0/3DeMore.cia",
+			"type": "cia",
+			"zip": [
+				{
+					"path": "/cias/3DeMore.cia",
+					"dest": "/",
+					"type": "update"
+				}
+			]
+		},
+		{
+			"url": "icon.png",
+			"type": "icon"
+		},
+		{
+			"url": "screen.png",
+			"type": "screenshot"
+		}
+	]
+}

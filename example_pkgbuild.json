@@ -1,0 +1,36 @@
+{
+	"package": "app",
+	"info": {
+		"title": "app",
+		"author": "author",
+		"category": "none",
+		"version": "0.0.0",
+		"url": "https://example.com/source",
+		"license": "none",
+		"description": "an example pkgbuild.json",
+		"details": "example",
+		"binary": "/cias/example.cia"
+	},
+	"changelog": "000",
+	"assets": [
+		{
+			"url": "https://example.com/sources/example.cia",
+			"type": "cia",
+			"zip": [
+				{
+					"path": "/cias/example.cia",
+					"dest": "/",
+					"type": "update"
+				}
+			]
+		},
+		{
+			"url": "icon.png",
+			"type": "icon"
+		},
+		{
+			"url": "screen.png",
+			"type": "screenshot"
+		}
+	]
+}
