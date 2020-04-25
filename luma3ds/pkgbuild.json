@@ -4,22 +4,22 @@
 		"title": "Luma3DS",
 		"author": "AuroraWright",
 		"category": "tool",
-		"version": "10.0.1",
+		"version": "10.1",
 		"url": "https://github.com/AuroraWright/Luma3DS",
 		"license": "GPLv3",
 		"description": "Noob-proof (N)3DS \"Custom Firmware\"",
 		"details": "Luma3DS is a program to patch the system software of (New) Nintendo 3DS handheld consoles 'on the fly', adding features (such as per-game language settings and debugging capabilities for developers) and removing restrictions enforced by Nintendo (such as the region lock).\\nIt also allows you to run unauthorized ('homebrew') content by removing signature checks.\\n\\nFor further information you can visit source repo here: https://gitlab.com/4TU/hb-appstore\\n\\nNotice: when updating appstore from appstore, the application will restart! This is due to assets from romfs needing to be unmounted.",
 		"binary": "/boot.firm"
 	},
-	"changelog": "v10.0.1\\nPlaceholder\\nPlaceholder",
+	"changelog": "v10.1",
 	"assets": [
 		{
-			"url": "https://github.com/AuroraWright/Luma3DS/releases/download/v10.0.1/Luma3DSv10.0.1.zip",
+			"url": "https://github.com/AuroraWright/Luma3DS/releases/download/v10.1/Luma3DSv10.1.zip",
 			"type": "zip",
 			"zip": [
 				{
 					"path": "/boot.firm",
-					"dest": "/boot.firm",
+					"dest": "/",
 					"type": "update"
 				}
 			]
