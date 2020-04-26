@@ -8,7 +8,7 @@ import shutil
 import tempfile
 import glob
 
-version='0.0.7'
+version='0.0.7.1'
 
 config_default={
 	"ignored_directories": [".git"],
@@ -57,12 +57,12 @@ def handleAsset(pkg, asset, manifest, subasset=False, prepend="\t"): #Downloads 
 		shutil.copyfileobj(asset_file, open(pkg+'/screen.png', "wb"))
 		os.makedirs(config["output_directory"]+'/packages/'+pkg, exist_ok=True)
 		shutil.copyfile(pkg+'/screen.png', config["output_directory"]+'/packages/'+pkg+'/screen.png')
-	elif asset['type'] == 'cia':
-		print(prepend+"- Type is cia, has "+str(len(asset['cia']))+" sub-asset(s)")
+	elif asset['type'] == 'zip':
+		print(prepend+"- Type is zip, has "+str(len(asset['zip']))+" sub-asset(s)")
 		with tempfile.TemporaryDirectory() as tempdirname:
-			shutil.unpack_archive(asset_file.name, extract_dir=tempdirname, format="cia")
+			shutil.unpack_archive(asset_file.name, extract_dir=tempdirname, format="zip")
 			handledSubAssets=0
-			for subasset in asset['cia']:
+			for subasset in asset['zip']:
 				for filepath in glob.glob(tempdirname+"/"+subasset['path'].lstrip("/"), recursive=True):
 					if not os.path.isdir(filepath): #Don't try to handle a directory as an asset - assets must be single files
 						#TODO: check that rstrip to see what other globbable weird characters need stripping
