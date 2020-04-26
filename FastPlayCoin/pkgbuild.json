@@ -1,0 +1,32 @@
+{
+	"package": "FastPlayCoin",
+	"info": {
+		"title": "FastPlayCoin",
+		"author": "CorySanin",
+		"category": "tool",
+		"version": "1.0",
+		"url": "FastPlayCoin",
+		"license": "none",
+		"description": "an example pkgbuild.json",
+		"details": "example",
+		"binary": "/cias/example.cia"
+	},
+	"changelog": "1.0:\\n- Initial Release",
+	"assets": [
+		{
+			"url": "https://github.com/CorySanin/FastPlayCoin/releases/download/v1.0/FastPlayCoin.cia",
+			"type": "cia",
+			"zip": [
+				{
+					"path": "/cias/",
+					"dest": "/cias/FastPlayCoin.cia",
+					"type": "update"
+				}
+			]
+		},
+		{
+			"url": "icon.png",
+			"type": "icon"
+		}
+	]
+}
