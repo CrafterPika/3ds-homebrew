@@ -11,10 +11,10 @@
 		"details": "FBI is an open source title manager for the 3DS.",
 		"binary": "/cias/FBI.cia"
 	},
-	"changelog": "000",
+	"changelog": "2.6.0",
 	"assets": [
 		{
-			"url": "https://github.com/Steveice10/FBI/releases/download/2.6.0/FBI.zip",
+			"url": "https://github.com/Steveice10/FBI/releases/download/2.6.0/FBI.cia",
 			"type": "zip",
 			"zip": [
 				{
