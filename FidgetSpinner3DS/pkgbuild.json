@@ -1,0 +1,36 @@
+{
+	"package": "FidgetSpinner3DS",
+	"info": {
+		"title": "FidgetSpinner3DS",
+		"author": "BEPISMAN2",
+		"category": "game",
+		"version": "2.0",
+		"url": "http://web.archive.org/web/20180906105147/https://github.com/BEPISMAN2/FidgetSpinner3DS",
+		"license": "none",
+		"description": "It's a Fidget Spinner. For your 3DS.",
+		"details": "It's a fidget spinner. For your 3DS.\n Tap on the bottom screen to rotate the spinner clockwise. No, it can't spin counter-clockwise. Don't ask.",
+		"binary": "/cias/FidgetSpinner3DS.cia"
+	},
+	"changelog": "2.0",
+	"assets": [
+		{
+			"url": "FidgetSpinner3DS.cia",
+			"type": "cia",
+			"zip": [
+				{
+					"path": "/cias/",
+					"dest": "/cias/example.cia",
+					"type": "update"
+				}
+			]
+		},
+		{
+			"url": "icon.png",
+			"type": "icon"
+		},
+		{
+			"url": "screen.png",
+			"type": "screenshot"
+		}
+	]
+}
