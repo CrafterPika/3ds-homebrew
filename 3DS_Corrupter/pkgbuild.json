@@ -15,7 +15,7 @@
 	"assets": [
 		{
 			"url": "cheat.plg",
-			"type": ".plg",
+			"type": "none",
 			"zip": [
 				{
 					"path": "/",

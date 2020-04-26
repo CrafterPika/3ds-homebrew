@@ -15,7 +15,7 @@
 	"assets": [
 		{
 			"url": "https://github.com/joel16/3DShell/releases/download/v4.3.1/3DShell.cia",
-			"type": ".cia",
+			"type": "cia",
 			"zip": [
 				{
 					"path": "/cias/",

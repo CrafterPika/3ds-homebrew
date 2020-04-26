@@ -57,12 +57,12 @@ def handleAsset(pkg, asset, manifest, subasset=False, prepend="\t"): #Downloads 
 		shutil.copyfileobj(asset_file, open(pkg+'/screen.png', "wb"))
 		os.makedirs(config["output_directory"]+'/packages/'+pkg, exist_ok=True)
 		shutil.copyfile(pkg+'/screen.png', config["output_directory"]+'/packages/'+pkg+'/screen.png')
-	elif asset['type'] == 'zip':
-		print(prepend+"- Type is zip, has "+str(len(asset['zip']))+" sub-asset(s)")
+	elif asset['type'] == 'cia':
+		print(prepend+"- Type is cia, has "+str(len(asset['cia']))+" sub-asset(s)")
 		with tempfile.TemporaryDirectory() as tempdirname:
-			shutil.unpack_archive(asset_file.name, extract_dir=tempdirname, format="zip")
+			shutil.unpack_archive(asset_file.name, extract_dir=tempdirname, format="cia")
 			handledSubAssets=0
-			for subasset in asset['zip']:
+			for subasset in asset['cia']:
 				for filepath in glob.glob(tempdirname+"/"+subasset['path'].lstrip("/"), recursive=True):
 					if not os.path.isdir(filepath): #Don't try to handle a directory as an asset - assets must be single files
 						#TODO: check that rstrip to see what other globbable weird characters need stripping
@@ -73,7 +73,7 @@ def handleAsset(pkg, asset, manifest, subasset=False, prepend="\t"): #Downloads 
 						}
 						handleAsset(pkg, subassetInfo, manifest, subasset=True, prepend=prepend+"\t")
 						handledSubAssets+=1
-			if handledSubAssets!=len(asset['zip']): print("INFO: discrepancy in subassets handled vs. listed. "+str(handledSubAssets)+" handled, "+str(len(asset['zip']))+" listed.")
+			if handledSubAssets!=len(asset['cia']): print("INFO: discrepancy in subassets handled vs. listed. "+str(handledSubAssets)+" handled, "+str(len(asset['zip']))+" listed.")
 	else: print("ERROR: asset of unknown type detected. Skipping.")
 	asset_file.close()
 
