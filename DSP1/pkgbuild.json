@@ -1,0 +1,36 @@
+{
+	"package": "DSP1",
+	"info": {
+		"title": "DSP1",
+		"author": "Zoogie",
+		"category": "concept",
+		"version": "1.0",
+		"url": "https://github.com/zoogie/DSP1/releases",
+		"license": "none",
+		"description": "3DS DSP firmware dumper",
+		"details": "Dsp firmware dumper for cia homebrew",
+		"binary": "/cias/DSP1.cia"
+	},
+	"changelog": "1.0: Initial Release",
+	"assets": [
+		{
+			"url": "https://github.com/zoogie/DSP1/releases/download/v1.0/DSP1.cia",
+			"type": "cia",
+			"zip": [
+				{
+					"path": "/cias/",
+					"dest": "/cias/DSP1.cia",
+					"type": "update"
+				}
+			]
+		},
+		{
+			"url": "icon.png",
+			"type": "icon"
+		},
+		{
+			"url": "screen.png",
+			"type": "screenshot"
+		}
+	]
+}
