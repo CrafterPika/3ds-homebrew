@@ -13,7 +13,7 @@ version='0.0.7'
 config_default={
 	"ignored_directories": [".git"],
 	"output_directory": "public",
-	"valid_binary_extensions": (".nro", ".elf", ".rpx", ".cia", ".3dsx", ".dol")
+	"valid_binary_extensions": (".nro", ".elf", ".rpx", ".cia", ".3dsx", ".dol", "none")
 }
 
 ### Methods, etc.

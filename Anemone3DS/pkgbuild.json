@@ -15,10 +15,9 @@
 	"assets": [
 		{
 			"url": "https://github.com/astronautlevel2/Anemone3DS/releases/download/v2.1.0-b/Anemone3DS.cia",
-			"type": "cia",
 			"zip": [
 				{
-					"path": "/cias/Anemone3DS.cia",
+					"path": "/cias/",
 					"dest": "/cias/Anemone3DS.cia",
 					"type": "update"
 				}

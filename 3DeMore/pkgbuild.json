@@ -15,10 +15,9 @@
 	"assets": [
 		{
 			"url": "https://github.com/Kyraminol/3DeMore/releases/download/1.0.0/3DeMore.cia",
-			"type": "cia",
 			"zip": [
 				{
-					"path": "/cias/3DeMore.cia",
+					"path": "/cias/",
 					"dest": "/cias/3DeMore.cia",
 					"type": "update"
 				}

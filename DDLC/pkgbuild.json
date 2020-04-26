@@ -9,17 +9,16 @@
 		"license": "none",
 		"description": "An unofficial cross-platform Doki Doki Literature Club port to Lua for different game consoles",
 		"details": "Notice: This is the largest app on the store! It will take a while to download through the app itself. Also, some users are reporting issues while downloading this app (please use the above \"Report an Issue\" button with your experience). You are probably better off getting this app from the website.\\n\\nSaves made before v1.0.0 are now incompatible and should be deleted!\\n\\nA Doki Doki Literature Club port for the Nintendo Switch! Programmed in Lua, running under the LovePotion framework.\\n\\nDDLC-LOVE, a DDLC port for the Switch, PSP, and PS Vita, will be found in the ddlclove branch of this repo.\\n\\nThis port is unofficial and is not affiliated with Team Salvato. Please support the official game. You can download Doki Doki Literature Club at: http://ddlc.moe\\n\\nThis is for 3DS systems, but it also works on other platforms that support LOVE (0.10.2 and later). On those, it will still have 2 screens like the 3DS.",
-		"binary": "/cias/DDLC-LOVE.cia"
+		"binary": "/DDLC-LOVE.cia"
 	},
 	"changelog": "1.1.8",
 	"assets": [
 		{
 			"url": "https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.8/DDLC-LOVE.cia",
-			"type": "cia",
 			"zip": [
 				{
-					"path": "/cias/example.cia",
-					"dest": "/",
+					"path": "/cias/",
+					"dest": "/cias/DDLC-LOVE.cia",
 					"type": "update"
 				}
 			]
