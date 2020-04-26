@@ -8,7 +8,7 @@ import shutil
 import tempfile
 import glob
 
-version='0.0.7.1'
+version='0.0.7'
 
 config_default={
 	"ignored_directories": [".git"],
@@ -73,7 +73,7 @@ def handleAsset(pkg, asset, manifest, subasset=False, prepend="\t"): #Downloads 
 						}
 						handleAsset(pkg, subassetInfo, manifest, subasset=True, prepend=prepend+"\t")
 						handledSubAssets+=1
-			if handledSubAssets!=len(asset['cia']): print("INFO: discrepancy in subassets handled vs. listed. "+str(handledSubAssets)+" handled, "+str(len(asset['zip']))+" listed.")
+			if handledSubAssets!=len(asset['zip']): print("INFO: discrepancy in subassets handled vs. listed. "+str(handledSubAssets)+" handled, "+str(len(asset['zip']))+" listed.")
 	else: print("ERROR: asset of unknown type detected. Skipping.")
 	asset_file.close()
 
