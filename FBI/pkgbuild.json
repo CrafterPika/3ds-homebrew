@@ -1,0 +1,32 @@
+{
+	"package": "FBI",
+	"info": {
+		"title": "FBI",
+		"author": "Steveice10",
+		"category": "tool",
+		"version": "2.6.0",
+		"url": "https://github.com/Steveice10/FBI/releases",
+		"license": "none",
+		"description": "Open Source 3DS title manager",
+		"details": "FBI is an open source title manager for the 3DS.",
+		"binary": "/cias/FBI.cia"
+	},
+	"changelog": "000",
+	"assets": [
+		{
+			"url": "https://github.com/Steveice10/FBI/releases/download/2.6.0/FBI.zip",
+			"type": "zip",
+			"zip": [
+				{
+					"path": "/cias/",
+					"dest": "/cias/FBI.cia",
+					"type": "update"
+				}
+			]
+		},
+		{
+			"url": "icon.png",
+			"type": "icon"
+		}
+	]
+}
