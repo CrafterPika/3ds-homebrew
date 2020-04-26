@@ -12,14 +12,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v1
-      with:
-        python-version: 3.8
-
-    - name: Build Repo
-      run:
-        python3 spinarak.py
+    - name: Build repo in spinarak docker container
+      run: |
+        docker run \
+        -v ${{ github.workspace }}:/packages registry.gitlab.com/4tu/spinarak \
+        /bin/bash -c "cd /packages && python3 /home/app/spinarak.py"
         
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
