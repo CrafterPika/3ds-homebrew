@@ -18,8 +18,8 @@
 			"type": "local",
 			"zip": [
 				{
-					"path": "/cias/",
-					"dest": "/cias/BreadBox.cia",
+					"path": "/cias/BreadBox.cia",
+					"dest": "/cias/",
 					"type": "update"
 				}
 			]

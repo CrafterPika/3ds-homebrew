@@ -18,8 +18,8 @@
 			"type": "local",
 			"zip": [
 				{
-					"path": "/",
-					"dest": "/cheat.plg",
+					"path": "/cheat.plg",
+					"dest": "/",
 					"type": "update"
 				}
 			]

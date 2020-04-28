@@ -18,8 +18,8 @@
 			"type": "update",
 			"zip": [
 				{
-					"path": "/cias/",
-					"dest": "/cias/DSP1.cia",
+					"path": "/cias/DSP1.cia",
+					"dest": "/cias/",
 					"type": "update"
 				}
 			]

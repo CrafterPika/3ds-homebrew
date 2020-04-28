@@ -18,8 +18,8 @@
 			"type": "update",
 			"zip": [
 				{
-					"path": "/cias/",
-					"dest": "/cias/FastPlayCoin.cia",
+					"path": "/cias/FastPlayCoin.cia",
+					"dest": "/cias/",
 					"type": "update"
 				}
 			]

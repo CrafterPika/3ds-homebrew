@@ -18,8 +18,8 @@
 			"type": "update",
 			"zip": [
 				{
-					"path": "/cias/",
-					"dest": "/cias/3dstris-1.6.7-59179f6.cia",
+					"path": "/cias/3dstris-1.6.7-59179f6.cia",
+					"dest": "/cias/",
 					"type": "update"
 				}
 			]

@@ -18,8 +18,8 @@
 			"type": "update",
 			"zip": [
 				{
-					"path": "/cias/",
-					"dest": "/cias/Anemone3DS.cia",
+					"path": "/cias/Anemone3DS.cia",
+					"dest": "/cias/",
 					"type": "update"
 				}
 			]

@@ -18,8 +18,8 @@
 			"type": "update",
 			"zip": [
 				{
-					"path": "/cias/",
-					"dest": "/cias/DDLC-LOVE.cia",
+					"path": "/cias/DDLC-LOVE.cia",
+					"dest": "/cias/",
 					"type": "update"
 				}
 			]

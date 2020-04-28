@@ -18,8 +18,8 @@
 			"type": "update",
 			"zip": [
 				{
-					"path": "/cias/",
-					"dest": "/cias/3DeMore.cia",
+					"path": "/cias/3DeMore.cia",
+					"dest": "/cias/",
 					"type": "update"
 				}
 			]

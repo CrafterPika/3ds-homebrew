@@ -18,8 +18,8 @@
 			"type": "update",
 			"zip": [
 				{
-					"path": "/cias/",
-					"dest": "/cias/BootNTRSelector-PabloMK7-Banner.cia",
+					"path": "/cias/BootNTRSelector-PabloMK7-Banner.cia",
+					"dest": "/cias/",
 					"type": "update"
 				}
 			]

@@ -18,8 +18,8 @@
 			"type": "update",
 			"zip": [
 				{
-					"path": "/cias/",
-					"dest": "/cias/3DShell.cia",
+					"path": "/cias/3DShell.cia",
+					"dest": "/cias/",
 					"type": "update"
 				}
 			]

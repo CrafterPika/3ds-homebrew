@@ -18,8 +18,8 @@
 			"type": "update",
 			"zip": [
 				{
-					"path": "/cias/",
-					"dest": "/cias/FBI.cia",
+					"path": "/cias/FBI.cia",
+					"dest": "/cias/",
 					"type": "update"
 				}
 			]

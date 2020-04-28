@@ -15,11 +15,11 @@
 	"assets": [
 		{
 			"url": "FidgetSpinner3DS.cia",
-			"type": "update",
+			"type": "local",
 			"zip": [
 				{
-					"path": "/cias/",
-					"dest": "/cias/example.cia",
+					"path": "/cias/FidgetSpinner3DS.cia",
+					"dest": "/cias/",
 					"type": "update"
 				}
 			]
