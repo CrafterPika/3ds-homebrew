@@ -15,7 +15,7 @@
 	"assets": [
 		{
 			"url": "cheat.plg",
-			"dest": "/",
+			"dest": "/plugins/cheat.plg",
 			"type": "local"
 		},
 		{
