@@ -1,0 +1,26 @@
+{
+	"package": "FidgetSpinner3DS",
+	"info": {
+		"title": "FidgetSpinner3DS",
+		"author": "Joel16",
+		"category": "tool",
+		"version": "1.00",
+		"url": "https://github.com/joel16/FriendMii/releases",
+		"license": "none",
+		"description": "Open Source Friend App",
+		"details": "An experimental open source friends app for the Nintendo 3DS.",
+		"binary": "/cias/FriendMii.cia"
+	},
+	"changelog": "1.00",
+	"assets": [
+		{
+			"url": "https://github.com/joel16/FriendMii/releases/download/v1.00/FriendMii.cia",
+		    "dest": "/cias/FriendMii.cia",
+			"type": "update"
+		},
+		{
+			"url": "icon.png",
+			"type": "icon"
+		}
+	]
+}
