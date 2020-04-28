@@ -19,7 +19,7 @@
 			"zip": [
 				{
 					"path": "/boot.firm",
-					"dest": "/boot.firm",
+					"dest": "/",
 					"type": "update"
 				}
 			]
