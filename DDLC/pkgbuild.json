@@ -16,8 +16,8 @@
 		{
 			"url": "https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.8/DDLC-LOVE.cia",
 			"dest": "/cias/DDLC-LOVE.cia",
-			"type": "update",
-		}
+			"type": "update"
+		},
 		{
 			"url": "icon.png",
 			"type": "icon"

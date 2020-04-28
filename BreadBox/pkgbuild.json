@@ -16,8 +16,8 @@
 		{
 			"url": "BreadBox.cia",
 			"dest": "/cias/BreadBox.cia",
-			"type": "local",
-		}
+			"type": "local"
+		},
 		{
 			"url": "icon.png",
 			"type": "icon"

@@ -16,8 +16,8 @@
 		{
 			"url": "https://github.com/joel16/3DSident/releases/download/0.8.0/3DSident-GUI.cia",
 			"dest": "/cias/3DSident-GUI.cia",
-			"type": "update",
-		}
+			"type": "update"
+		},
 		{
 			"url": "screen.png",
 			"type": "screenshot"
