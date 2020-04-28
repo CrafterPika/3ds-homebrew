@@ -15,14 +15,8 @@
 	"assets": [
 		{
 			"url": "https://github.com/FlagBrew/Checkpoint/releases/download/v3.7.4/Checkpoint.cia",
-			"type": "get",
-			"zip": [
-				{
-					"path": "/cias/Checkpoint.cia",
-					"dest": "/",
-					"type": "update"
-				}
-			]
+			"dest": "/cias/Checkpoint.cia",
+			"type": "update",
 		},
 		{
 			"url": "icon.png",

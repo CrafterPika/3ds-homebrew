@@ -15,14 +15,8 @@
 	"assets": [
 		{
 			"url": "https://github.com/zoogie/DSP1/releases/download/v1.0/DSP1.cia",
-			"type": "get",
-			"zip": [
-				{
-					"path": "/cias/DSP1.cia",
-					"dest": "/",
-					"type": "update"
-				}
-			]
+			"dest": "/cias/DSP1.cia",
+			"type": "update",
 		},
 		{
 			"url": "icon.png",

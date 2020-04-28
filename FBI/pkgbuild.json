@@ -15,14 +15,8 @@
 	"assets": [
 		{
 			"url": "https://github.com/Steveice10/FBI/releases/download/2.6.0/FBI.cia",
-			"type": "get",
-			"zip": [
-				{
-					"path": "/cias/FBI.cia",
-					"dest": "/",
-					"type": "update"
-				}
-			]
+			"dest": "/cias/FBI.cia",
+			"type": "update",
 		},
 		{
 			"url": "icon.png",

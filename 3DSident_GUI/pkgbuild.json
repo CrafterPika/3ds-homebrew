@@ -15,14 +15,8 @@
 	"assets": [
 		{
 			"url": "https://github.com/joel16/3DSident/releases/download/0.8.0/3DSident-GUI.cia",
-			"type": "get",
-			"zip": [
-				{
-					"path": "/cias/3DSident-GUI.cia",
-					"dest": "/",
-					"type": "update"
-				}
-			]
+			"dest": "/cias/3DSident-GUI.cia",
+			"type": "update",
 		},
 		{
 			"url": "screen.png",

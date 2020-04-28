@@ -15,14 +15,8 @@
 	"assets": [
 		{
 			"url": "cheat.plg",
+			"dest": "/",
 			"type": "local",
-			"zip": [
-				{
-					"path": "/cheat.plg",
-					"dest": "/",
-					"type": "update"
-				}
-			]
 		},
 		{
 			"url": "icon.png",
