@@ -17,7 +17,7 @@
 			"url": "https://github.com/3DStris/3DStris/releases/download/v1.6.7/3dstris-1.6.7-59179f6.cia",
 			"dest": "/cias/3dstris-1.6.7-59179f6.cia",
 			"type": "update",
-		},
+		}
 		{
 			"url": "icon.png",
 			"type": "icon"

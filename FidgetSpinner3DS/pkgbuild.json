@@ -17,7 +17,7 @@
 			"url": "FidgetSpinner3DS.cia",
 			"dest": "/cias/FidgetSpinner3DS.cia",
 			"type": "local",
-		},
+		}
 		{
 			"url": "icon.png",
 			"type": "icon"

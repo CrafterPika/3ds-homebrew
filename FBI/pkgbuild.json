@@ -17,7 +17,7 @@
 			"url": "https://github.com/Steveice10/FBI/releases/download/2.6.0/FBI.cia",
 			"dest": "/cias/FBI.cia",
 			"type": "update",
-		},
+		}
 		{
 			"url": "icon.png",
 			"type": "icon"

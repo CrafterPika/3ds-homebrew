@@ -17,7 +17,7 @@
 			"url": "https://github.com/Nanquitas/BootNTR/releases/download/v2.13.3/BootNTRSelector-PabloMK7-Banner.cia",
 			"dest": "/cias/BootNTRSelector-PabloMK7-Banner.cia",
 			"type": "update",
-		},
+		}
 		{
 			"url": "icon.png",
 			"type": "icon"

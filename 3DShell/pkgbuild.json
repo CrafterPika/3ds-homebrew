@@ -17,7 +17,7 @@
 			"url": "https://github.com/joel16/3DShell/releases/download/v4.3.1/3DShell.cia",
 			"dest": "/cias/3DShell.cia",
 			"type": "update",
-		},
+		}
 		{
 			"url": "screen.png",
 			"type": "screenshot"

@@ -17,7 +17,7 @@
 			"url": "cheat.plg",
 			"dest": "/",
 			"type": "local",
-		},
+		}
 		{
 			"url": "icon.png",
 			"type": "icon"
