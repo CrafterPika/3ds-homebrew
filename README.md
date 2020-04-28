@@ -2,7 +2,7 @@
 3ds hb repo
 
 # Homebrew Repo for the 3ds
-- Watch [here](http://3ds.apps.fortheusers.org/) WeBversion
+- Watch [here](http://apps.fortheusers.org/3ds) WeBversion
 - An Awesome PC app by Lyfe, Watch [here](https://github.com/LyfeOnEdge/3DStore)
 
 # Submitting App
