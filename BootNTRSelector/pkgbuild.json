@@ -15,7 +15,7 @@
 	"assets": [
 		{
 			"url": "https://github.com/Nanquitas/BootNTR/releases/download/v2.13.3/BootNTRSelector-PabloMK7-Banner.cia",
-			"type": "update",
+			"type": "get",
 			"zip": [
 				{
 					"path": "/cias/BootNTRSelector-PabloMK7-Banner.cia",

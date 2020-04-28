@@ -15,7 +15,7 @@
 	"assets": [
 		{
 			"url": "https://example.com/sources/example.cia",
-			"type": "update",
+			"type": "update, get, local, zip, extract",
 			"zip": [
 				{
 					"path": "/cias/example.cia",

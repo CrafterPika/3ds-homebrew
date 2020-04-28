@@ -15,7 +15,7 @@
 	"assets": [
 		{
 			"url": "https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.8/DDLC-LOVE.cia",
-			"type": "update",
+			"type": "get",
 			"zip": [
 				{
 					"path": "/cias/DDLC-LOVE.cia",
