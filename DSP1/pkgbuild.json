@@ -19,7 +19,7 @@
 			"zip": [
 				{
 					"path": "/cias/DSP1.cia",
-					"dest": "/cias/",
+					"dest": "/",
 					"type": "update"
 				}
 			]

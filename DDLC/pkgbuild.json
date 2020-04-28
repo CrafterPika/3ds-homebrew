@@ -19,7 +19,7 @@
 			"zip": [
 				{
 					"path": "/cias/DDLC-LOVE.cia",
-					"dest": "/cias/",
+					"dest": "/",
 					"type": "update"
 				}
 			]

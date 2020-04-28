@@ -19,7 +19,7 @@
 			"zip": [
 				{
 					"path": "/cias/3DSBank.cia",
-					"dest": "/cias/",
+					"dest": "/",
 					"type": "update"
 				}
 			]
