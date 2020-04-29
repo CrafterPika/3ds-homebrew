@@ -13,14 +13,20 @@
 	"changelog": "beta",
 	"assets": [
 		{
-			"url": "HorizonM.cia",
-		    "dest": "/cias/HorizonM.cia",
-			"type": "local"
-		},
-		{
-			"url": "HzLoad.cia",
-		    "dest": "/cias/HzLoad.cia",
-			"type": "local"
+			"url": "Hz.zip",
+			"type": "local",
+			"zip": [
+				{
+					"path": "/HorizonM.cia",
+					"dest": "/cias/HorizonM.cia",
+					"type": "update"
+				},
+				{
+					"path": "/HzLoad.cia",
+					"dest": "/cias/HzLoad.cia",
+					"type": "update"
+				}
+			]
 		},
 		{
 			"url": "icon.png",
