@@ -1,0 +1,56 @@
+{
+	"package": "GodMode9",
+	"info": {
+		"title": "GodMode9",
+		"author": "D0k3",
+		"category": "advanced",
+		"version": "1.9.1",
+		"url": "https://github.com/d0k3/GodMode9",
+		"license": "GPLv3",
+		"description": "3DS File Explorer with full access",
+		"details": "GodMode9 is just not a File Explorer with full access, it's a complete toolkit for the 3ds!\n\nWarning: This is powerful stuff don't Modify any files without knowing what your doing.\n\n The recommend way to use GodMode9 is FastBoot3DS (https://github.com/derrekr/fastboot3DS).",
+	},
+	"changelog": "v1.9.1",
+	"assets": [
+		{
+			"url": "https://github.com/d0k3/GodMode9/releases/download/v1.9.1/GodMode9-v1.9.1-20200110121417.zip",
+			"type": "zip",
+			"zip": [
+				{
+					"path": "/GodMode9.firm",
+					"dest": "/luma/payloads/GodMode9.firm",
+					"type": "update"
+				},
+				{
+					"path": "/gm9/scripts/GM9Megascript.gm9",
+					"dest": "/gm9/scripts/GM9Megascript.gm9",
+					"type": "update"
+				},
+				{
+					"path": "/gm9/scripts/NANDManager.gm9",
+					"dest": "/gm9/scripts/NANDManager.gm9",
+					"type": "update"
+				},
+				{
+					"path": "/gm9/support/aeskeydb.bin.here",
+					"dest": "/gm9/support/aeskeydb.bin.here",
+					"type": "update"
+				},
+				{
+					"path": "/gm9/support/encTitleKeys.bin.here",
+					"dest": "/gm9/support/encTitleKeys.bin.here",
+					"type": "update"
+				},
+				{
+					"path": "/gm9/support/seeddb.bin.here",
+					"dest": "/gm9/support/seeddb.bin.here",
+					"type": "update"
+				}
+			]
+		}
+		{
+			"url": "screen.png",
+			"type": "screenshot"
+		}
+	]
+}
