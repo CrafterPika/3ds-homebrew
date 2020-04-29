@@ -1,0 +1,30 @@
+{
+	"package": "LumaLocaleSwitcher",
+	"info": {
+		"title": "LumaLocaleSwitcher",
+		"author": "Possum",
+		"category": "tool",
+		"version": "0.04",
+		"url": "https://github.com/Possum/LumaLocaleSwitcher/",
+		"license": "none",
+		"description": "Luma3DS compatible locale system.",
+		"details": "Front end to Luma3DS compatible locale system.",
+		"binary": "/cias/LumaLocaleSwitcher-0.04.cia"
+	},
+	"changelog": "0.04",
+	"assets": [
+		{
+			"url": "https://github.com/Possum/LumaLocaleSwitcher/releases/download/0.04/LumaLocaleSwitcher-0.04.cia",
+		    "dest": "/cias/LumaLocaleSwitcher-0.04.cia",
+			"type": "update"
+		},
+		{
+			"url": "icon.png",
+			"type": "icon"
+		},
+		{
+			"url": "screen.png",
+			"type": "screenshot"
+		}
+	]
+}

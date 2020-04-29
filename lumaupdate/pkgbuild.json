@@ -1,0 +1,26 @@
+{
+	"package": "lumaupdate",
+	"info": {
+		"title": "Luma Updater",
+		"author": "KunoichiZ",
+		"category": "tool",
+		"version": "v2.5",
+		"url": "https://github.com/KunoichiZ/lumaupdate",
+		"license": "none",
+		"description": "Updates Luma3DS diretcly",
+		"details": "Updates Luma3DS diretcly, on your 3ds without switching your sd card",
+		"binary": "/cias/lumaupdater.cia"
+	},
+	"changelog": "v2.5",
+	"assets": [
+		{
+			"url": "https://github.com/KunoichiZ/lumaupdate/releases/download/v2.5/lumaupdater.cia",
+		    "dest": "/cias/lumaupdater.cia",
+			"type": "update"
+		},
+		{
+			"url": "icon.png",
+			"type": "icon"
+		}
+	]
+}
