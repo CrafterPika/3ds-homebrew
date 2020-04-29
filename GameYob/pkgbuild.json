@@ -1,0 +1,26 @@
+{
+	"package": "GameYob",
+	"info": {
+		"title": "GameYob",
+		"author": "Steveice10",
+		"category": "emu",
+		"version": "1.0.8",
+		"url": "https://github.com/Steveice10/GameYob",
+		"license": "none",
+		"description": "GB(C) Emu",
+		"details": "[Super] Gameboy [Color] emulator for the Nintendo [3]DS",
+		"binary": "/cias/GameYob.cia"
+	},
+	"changelog": "1.00",
+	"assets": [
+		{
+			"url": "https://github.com/Steveice10/GameYob/releases/download/1.0.8/GameYob.cia",
+		    "dest": "/cias/GameYob.cia",
+			"type": "update"
+		},
+		{
+			"url": "icon.png",
+			"type": "icon"
+		}
+	]
+}
