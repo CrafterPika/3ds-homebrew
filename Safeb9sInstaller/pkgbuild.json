@@ -1,0 +1,31 @@
+{
+	"package": "Safeb9sInstaller",
+	"info": {
+		"title": "Safeb9sInstaller",
+		"author": "D0k3",
+		"category": "advanced",
+		"version": "0.0.7",
+		"url": "https://github.com/d0k3/SafeB9SInstaller/releases",
+		"license": "GPLv3",
+		"description": "Safe, simple, user-friendly installer for sighaxed FIRMs",
+		"details": "For usage instructions, refer to Plailect's guide. (https://3ds.guide)"
+	},
+	"changelog": "v0.0.7",
+	"assets": [
+		{
+			"url": "https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip",
+			"type": "zip",
+			"zip": [
+				{
+					"path": "/SafeB9SInstaller.firm",
+					"dest": "/luma/payloads/SafeB9SInstaller.firm",
+					"type": "update"
+				}
+			]
+		},
+		{
+			"url": "icon.png",
+			"type": "icon"
+		}
+	]
+}
