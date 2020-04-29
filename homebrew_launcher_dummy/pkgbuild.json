@@ -1,0 +1,34 @@
+{
+	"package": "homebrew_launcher",
+	"info": {
+		"title": "Homebrew Launcher",
+		"author": "PabloMK7, fincs, Smea",
+		"category": "misc",
+		"version": "1.0",
+		"url": "https://github.com/fincs/new-hbmenu/releases",
+		"license": "none",
+		"description": "The New 3DS Homebrew Launcher",
+		"details": "Launch .3dsx files from your 3ds card. Homebrew Launcher .cia source: https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases"
+	},
+	"changelog": "1.0",
+	"assets": [
+		{
+			"url": "https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/download/v1.0/Homebrew_Launcher.cia",
+		    "dest": "/cias/Homebrew_Launcher.cia",
+			"type": "update"
+		},
+		{
+			"url": "https://github.com/fincs/new-hbmenu/releases/download/v2.1.1/boot.3dsx",
+		    "dest": "/boot.3dsx",
+			"type": "update"
+		},
+		{
+			"url": "icon.png",
+			"type": "icon"
+		},
+		{
+			"url": "screen.png",
+			"type": "screenshot"
+		}
+	]
+}
