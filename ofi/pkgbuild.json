@@ -1,0 +1,31 @@
+{
+	"package": "ofi",
+	"info": {
+		"title": "OpenFirmInstaller",
+		"author": "D0k3",
+		"category": "advanced",
+		"version": "0.0.9",
+		"url": "https://github.com/d0k3/OpenFirmInstaller/releases",
+		"license": "GPLv3",
+		"description": "Safe, simple, user-friendly installer for sighax bootloaders",
+		"details": "OpenFirmInstaller is based on SafeB9SInstaller and works the same way as that. All input files go into 'sdmc:/ofi'. At the present time, only boot9strap and fastboot3DS are supported as input files."
+	},
+	"changelog": "v0.0.9",
+	"assets": [
+		{
+			"url": "https://github.com/d0k3/OpenFirmInstaller/releases/download/v0.0.9/OpenFirmInstaller-20190405-183939.zip",
+			"type": "zip",
+			"zip": [
+				{
+					"path": "/OpenFirmInstaller.firm",
+					"dest": "/luma/payloads/OpenFirmInstaller.firm",
+					"type": "update"
+				}
+			]
+		},
+		{
+			"url": "icon.png",
+			"type": "icon"
+		}
+	]
+}

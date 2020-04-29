@@ -1,0 +1,26 @@
+{
+	"package": "mcu_bricker",
+	"info": {
+		"title": "MCU bricker",
+		"author": "Sono/MarcuzD",
+		"category": "tool",
+		"version": "v1.0",
+		"url": "https://github.com/MechanicalDragon0687/MCU_Bricker_tinydb/releases/",
+		"license": "none",
+		"description": "rainbow notification light",
+		"details": "Changes your 3ds notification light",
+		"binary": "/cias/RGB.cia"
+	},
+	"changelog": "v1.0",
+	"assets": [
+		{
+			"url": "https://github.com/MechanicalDragon0687/MCU_Bricker_tinydb/releases/download/1.0/RGB.cia",
+		    "dest": "/cias/RGB.cia",
+			"type": "update"
+		},
+		{
+			"url": "icon.png",
+			"type": "icon"
+		}
+	]
+}
