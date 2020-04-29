@@ -25,10 +25,6 @@
 		{
 			"url": "icon.png",
 			"type": "icon"
-		},
-		{
-			"url": "screen.png",
-			"type": "screenshot"
 		}
 	]
 }
