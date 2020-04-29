@@ -9,14 +9,24 @@
 		"license": "none",
 		"description": "Open Source 3DS title manager",
 		"details": "FBI is an open source title manager for the 3DS.",
-		"binary": "/cias/FBI.cia"
 	},
 	"changelog": "2.6.0",
 	"assets": [
 		{
-			"url": "https://github.com/Steveice10/FBI/releases/download/2.6.0/FBI.cia",
-			"dest": "/cias/FBI.cia",
-			"type": "update"
+			"url": "https://github.com/Steveice10/FBI/releases/download/2.6.0/FBI.zip",
+			"type": "zip",
+			"zip": [
+				{
+					"path": "/3ds-arm/FBI.cia",
+					"dest": "/cias/FBI.cia",
+					"type": "update"
+				},
+				{
+					"path": "/3ds-arm/3ds/FBI/FBI.3dsx",
+					"dest": "/3ds/FBI.3dsx",
+					"type": "update"
+				}
+			]
 		},
 		{
 			"url": "icon.png",
