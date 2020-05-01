@@ -1,0 +1,141 @@
+{
+	"package": "MegaZeux",
+	"info": {
+		"title": "MegaZeux",
+		"author": "AliceLR",
+		"category": "game",
+		"version": "2.92c",
+		"url": "https://www.digitalmzx.com/megazeux.php",
+		"license": "GPLv3",
+		"description": "MegaZeux is a game creation system",
+		"details": "MegaZeux is a game creation system originally released in 1994 and still being developed today. At DigitalMZX you'll find an enormous collection of MegaZeux games and a forum inhabited by friendly MegaZeux veterans. In-depth community info can be found in the MZX Wiki.\\n\\nYou can chat to the team @ https://discord.gg/XJCvb4P\\n\\nGames can be found here : https://vault.digitalmzx.net/search.php?browse=AllGames&desc=CACHE_downloadCount"
+	},
+	"changelog": "2.92c:\n\n- Released March 8th, 2020. Retagged and uploaded Ubuntu/Debian builds March 13th, 2020. PowerPC DMG added April 1st, 2020.",
+	"assets": [
+		{
+			"url": "https://www.digitalmzx.com/download.php?latest=3ds",
+			"type": "zip",
+			"zip": [
+				{
+					"path": "/mzxrun.cia",
+					"dest": "/cias/mzxrun.cia",
+					"type": "update"
+				},
+				{
+					"path": "/3ds/megazeux/mzxrun.3dsx",
+					"dest": "/3ds/megazeux/mzxrun.3dsx",
+					"type": "update"
+				},
+				{
+					"path": "/3ds/megazeux/pad.config",
+					"dest": "/3ds/megazeux/pad.config",
+					"type": "update"
+				},
+				{
+					"path": "/3ds/megazeux/LICENSE",
+					"dest": "/3ds/megazeux/LICENSE",
+					"type": "update"
+				},
+				{
+					"path": "/3ds/megazeux/CV_TITLE.MOD",
+					"dest": "/3ds/megazeux/CV_TITLE.MOD",
+					"type": "update"
+				},
+				{
+					"path": "/3ds/megazeux/CV_TECH.MOD",
+					"dest": "/3ds/megazeux/CV_TECH.MOD",
+					"type": "update"
+				},
+				{
+					"path": "/3ds/megazeux/CV_STORY.MOD",
+					"dest": "/3ds/megazeux/CV_STORY.MOD",
+					"type": "update"
+				},
+				{
+					"path": "/3ds/megazeux/CV_MAGIC.MOD",
+					"dest": "/3ds/megazeux/CV_MAGIC.MOD",
+					"type": "update"
+				},
+				{
+					"path": "/3ds/megazeux/CV_HEVEN.MOD",
+					"dest": "/3ds/megazeux/CV_HEVEN.MOD",
+					"type": "update"
+				},
+				{
+					"path": "/3ds/megazeux/CV_BOSS.MOD",
+					"dest": "/3ds/megazeux/CV_BOSS.MOD",
+					"type": "update"
+				},
+				{
+					"path": "/3ds/megazeux/CV_BALON.MOD",
+					"dest": "/3ds/megazeux/CV_BALON.MOD",
+					"type": "update"
+				},
+				{
+					"path": "/3ds/megazeux/config.txt",
+					"dest": "/3ds/megazeux/config.txt",
+					"type": "update"
+				},
+				{
+					"path": "/3ds/megazeux/CAVERNS.MZX",
+					"dest": "/3ds/megazeux/CAVERNS.MZX",
+					"type": "update"
+				},
+				{
+					"path": "/3ds/megazeux/docs/changelog.txt",
+					"dest": "/3ds/megazeux/docs/changelog.txt",
+					"type": "update"
+				},
+				{
+					"path": "/3ds/megazeux/docs/cycles_and_commands.txt",
+					"dest": "/3ds/megazeux/docs/cycles_and_commands.txt",
+					"type": "update"
+				},
+				{
+					"path": "/3ds/megazeux/docs/joystick.html",
+					"dest": "/3ds/megazeux/docs/joystick.html",
+					"type": "update"
+				},
+				{
+					"path": "/3ds/megazeux/docs/keycodes.html",
+					"dest": "/3ds/megazeux/docs/keycodes.html",
+					"type": "update"
+				},
+				{
+					"path": "/3ds/megazeux/docs/macro.txt",
+					"dest": "/3ds/megazeux/docs/macro.txt",
+					"type": "update"
+				},
+				{
+					"path": "/3ds/megazeux/docs/mzxhelp.html",
+					"dest": "/3ds/megazeux/docs/mzxhelp.html",
+					"type": "update"
+				},
+				{
+					"path": "/3ds/megazeux/docs/platform_matrix.html",
+					"dest": "/3ds/megazeux/docs/platform_matrix.html",
+					"type": "update"
+				},
+				{
+					"path": "/3ds/megazeux/assets/default.chr",
+					"dest": "/3ds/megazeux/assets/default.chr",
+					"type": "update"
+				},
+				{
+					"path": "/3ds/megazeux/assets/edit.chr",
+					"dest": "/3ds/megazeux/assets/edit.chr",
+					"type": "update"
+				},
+				{
+					"path": "/3ds/megazeux/assets/smzx.pal",
+					"dest": "/3ds/megazeux/assets/smzx.pal",
+					"type": "update"
+				}
+			]
+		},
+		{
+			"url": "icon.png",
+			"type": "icon"
+		}
+	]
+}
