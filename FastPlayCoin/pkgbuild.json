@@ -7,9 +7,9 @@
 		"version": "1.0",
 		"url": "FastPlayCoin",
 		"license": "none",
-		"description": "an example pkgbuild.json",
-		"details": "example",
-		"binary": "/cias/example.cia"
+		"description": "Set PlayCoins to 300",
+		"details": "Set playcoins to 300. no options to configure",
+		"binary": "/cias/FastPlayCoin.cia"
 	},
 	"changelog": "1.0:\\n- Initial Release",
 	"assets": [
