@@ -4,7 +4,7 @@
 		"title": "Anemone3DS",
 		"author": "astronautlevel2",
 		"category": "none",
-		"version": "2.1.0b",
+		"version": "v2.1.0",
 		"url": "https://github.com/astronautlevel2/Anemone3DS",
 		"license": "none",
 		"description": "Theme/Splash Manager",
@@ -14,7 +14,7 @@
 	"changelog": "2.1.0b",
 	"assets": [
 		{
-			"url": "https://github.com/astronautlevel2/Anemone3DS/releases/download/v2.1.0-b/Anemone3DS.cia",
+			"url": "https://github.com/astronautlevel2/Anemone3DS/releases/latest/download/Anemone3DS.cia",
 			"dest": "/cias/Anemone3DS.cia",
 			"type": "update"
 		},
