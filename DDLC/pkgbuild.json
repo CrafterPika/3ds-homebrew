@@ -14,7 +14,7 @@
 	"changelog": "1.1.9",
 	"assets": [
 		{
-			"url": "https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.9/DDLC-LOVE.cia",
+			"url": "https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.9/DDLC-LOVE-3DS.cia",
 			"dest": "/cias/DDLC-LOVE.cia",
 			"type": "update"
 		},
