@@ -4,17 +4,17 @@
 		"title": "LeafEdit",
 		"author": "universal-team",
 		"category": "tool",
-		"version": "0.2.0",
+		"version": "v0.2.1",
 		"url": "https://universal-team.github.io/projects/leafedit",
 		"license": "none",
 		"description": "ACNL Sabe editor",
 		"details": "Work in progress Animal Crossing: New Leaf save manager & editor for the Nintendo 3DS!",
 		"binary": "/cias/LeafEdit.cia"
 	},
-	"changelog": "1.00",
+	"changelog": "v0.2.1",
 	"assets": [
 		{
-			"url": "https://github.com/Universal-Team/LeafEdit/releases/download/v0.2.0/LeafEdit.cia",
+			"url": "https://github.com/Universal-Team/LeafEdit/releases/download/v0.2.1/LeafEdit.cia",
 		    "dest": "/cias/LeafEdit.cia",
 			"type": "update"
 		},

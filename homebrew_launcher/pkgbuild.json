@@ -18,7 +18,7 @@
 			"type": "update"
 		},
 		{
-			"url": "https://github.com/fincs/new-hbmenu/releases/download/v2.1.1/boot.3dsx",
+			"url": "https://github.com/fincs/new-hbmenu/releases/download/v2.2.0/boot.3dsx",
 		    "dest": "/boot.3dsx",
 			"type": "update"
 		},

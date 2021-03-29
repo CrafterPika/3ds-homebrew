@@ -4,17 +4,17 @@
 		"title": "ftpd",
 		"author": "mtheall",
 		"category": "tool",
-		"version": "2.3.1",
+		"version": "v3.0.0",
 		"url": "https://github.com/mtheall/ftpd/",
 		"license": "none",
 		"description": "FTP Server",
 		"details": "FTP Server for 3DS/Switch",
 		"binary": "/cias/ftpd.cia"
 	},
-	"changelog": "1.00",
+	"changelog": "v3.0.0",
 	"assets": [
 		{
-			"url": "https://github.com/mtheall/ftpd/releases/download/v2.3.1/ftpd.cia",
+			"url": "https://github.com/mtheall/ftpd/releases/download/v3.0.0/ftpd.cia",
 		    "dest": "/cias/ftpd.cia",
 			"type": "update"
 		},

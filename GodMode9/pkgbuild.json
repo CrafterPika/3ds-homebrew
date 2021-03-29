@@ -4,16 +4,16 @@
 		"title": "GodMode9",
 		"author": "D0k3",
 		"category": "advanced",
-		"version": "1.9.1",
+		"version": "v2.0.0",
 		"url": "https://github.com/d0k3/GodMode9",
 		"license": "GPLv3",
 		"description": "3DS File Explorer with full access",
 		"details": "GodMode9 is just not a File Explorer with full access, it's a complete toolkit for the 3ds!\n\nWarning: This is powerful stuff don't Modify any files without knowing what your doing.\n\n The recommend way to use GodMode9 is FastBoot3DS (https://github.com/derrekr/fastboot3DS)."
 	},
-	"changelog": "v1.9.1",
+	"changelog": "v2.0.0",
 	"assets": [
 		{
-			"url": "https://github.com/d0k3/GodMode9/releases/download/v1.9.1/GodMode9-v1.9.1-20200110121417.zip",
+			"url": "https://github.com/d0k3/GodMode9/releases/download/v2.0.0/GodMode9-v2.0.0-20210322174439.zip",
 			"type": "zip",
 			"zip": [
 				{
