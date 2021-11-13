@@ -11,7 +11,7 @@
 		"details": "Fast and simple homebrew save manager for 3DS and Switch.",
 		"binary": "/cias/Checkpoint.cia"
 	},
-	"changelog": "v3.7.4",
+	"changelog": "v3.8.0",
 	"assets": [
 		{
 			"url": "https://github.com/FlagBrew/Checkpoint/releases/download/v3.8.0/Checkpoint.cia",
