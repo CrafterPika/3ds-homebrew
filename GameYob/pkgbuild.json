@@ -11,10 +11,10 @@
 		"details": "[Super] Gameboy [Color] emulator for the Nintendo [3]DS",
 		"binary": "/cias/GameYob.cia"
 	},
-	"changelog": "1.00",
+	"changelog": "1.08",
 	"assets": [
 		{
-			"url": "https://github.com/Steveice10/GameYob/releases/download/1.0.8/GameYob.cia",
+			"url": "https://github.com/SombrAbsol/GameYob-3DS/releases/download/1.0.8/GameYob.cia",
 		    "dest": "/cias/GameYob.cia",
 			"type": "update"
 		},

@@ -4,17 +4,17 @@
 		"title": "Video player for 3DS",
 		"author": "Core 2 Extreme",
 		"category": "tool",
-		"version": "1.1.0",
+		"version": "1.4.0",
 		"url": "https://github.com/Core-2-Extreme/Video_player_for_3DS/releases",
 		"license": "none",
 		"description": "Video player for 3DS",
 		"details": "Video player for 3DS",
 		"binary": "/cias/Video_player_for_3DS.cia"
 	},
-	"changelog": "1.1.0",
+	"changelog": "1.4.0",
 	"assets": [
 		{
-			"url": "https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.1.0/Video_player_for_3DS.cia",
+			"url": "https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.4.0/Video_player_for_3DS.cia",
 			"dest": "/cias/Video_player_for_3DS.cia",
 			"type": "update"
 		},
