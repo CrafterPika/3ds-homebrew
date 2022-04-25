@@ -18,7 +18,7 @@ jobs:
         python-version: 3.8
 
     - name: Build Repo
-      run:
+      run: |
         python3 spinarak.py
         echo "<html><head> <meta http-equiv='refresh' content='5; URL= http://apps.fortheusers.org/3ds' /></head></html>" > ./public/index.html
         
